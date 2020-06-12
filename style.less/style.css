@@ -1,0 +1,66 @@
+@font-face {
+  font-family: REGULAR STYLE;
+  src: url(../font/SfDistantGalaxyAlternate-OE4d.ttf);
+}
+body {
+  background-image: url(../stat_image/208787.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-family: REGULAR STYLE;
+}
+.users_block {
+  padding: 20px 40px;
+  color: #a07948;
+}
+.users_block .header_tr {
+  text-transform: capitalize;
+}
+.users_block .header_tr :last-child {
+  cursor: auto;
+}
+.users_block table {
+  border-collapse: collapse;
+  width: 43.1%;
+}
+.users_block table td,
+.users_block table tr {
+  border: 1px solid #2d2a3b;
+  padding: 12px 11px;
+}
+.users_block .planet_td {
+  border: 1px solid black;
+  color: brown;
+  cursor: pointer;
+}
+.users_block .planet_td:hover {
+  text-decoration: underline;
+}
+.planet_modal {
+  border: 1px solid black;
+  width: 400px;
+  height: 150px;
+  position: absolute;
+  background: #fffbf6;
+  left: 50px;
+  border-radius: 3px;
+}
+.planet_modal .close_btn {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  cursor: pointer;
+  color: red;
+}
+.planet_modal td {
+  padding: 9px;
+}
+.planet_modal .planet_image {
+  position: absolute;
+  right: 50px;
+  top: 20px;
+  width: 100px;
+  height: 100px;
+}
+.planet_modal .planet_image img {
+  width: 110%;
+}
